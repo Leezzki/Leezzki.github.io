@@ -1,0 +1,484 @@
+/****************************
+GENERAL
+******************************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway ', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+a:link {
+  color: #3333ff;
+}
+
+img {
+    max-width: 100%;
+    clear: both;
+  }
+
+h3 {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+/****************************
+LAYOUT
+******************************/
+
+#about {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #F3EFE0;
+}
+
+.aboutme {
+  margin-top: 65px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.profile-photo {
+  height: 80%;
+  width: 50vw;
+  border-radius: 50px;
+  margin-bottom: 95px;
+}
+
+#about > div {
+  display: block;
+  margin: 20px;
+  margin-bottom: 90px;
+}
+
+p {
+  margin-bottom: 80px;
+  margin-left: -45px;
+  font-size: 1.2em;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #475058;
+}
+
+.footer-p {
+  position: relative;
+  text-align: center;
+  margin-right: -80px;
+  margin-bottom: auto;
+  padding-top: 100px;
+}
+
+.contact {
+  height: 10em;
+  color: black;
+}
+
+#contact-page {
+  display: flex;
+  justify-content: center;
+  background-color: #434242;
+}
+
+#contact-page h2 {
+  font-family: 'Serif', sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  font-size: 60px;
+  margin-top: 55px;
+  text-align: center;
+
+}
+
+#contact-page p {
+  margin-top: 50px;
+  color: #727878;
+}
+
+
+/****************************
+HEADING
+******************************/
+
+#header {
+  /*display: table;*/
+  top: 0%;
+  left: 0;
+  height: 960px;
+  width: 100%;
+  background: url(../img/header.jpg)
+              no-repeat center;
+  background-size: cover;
+  box-shadow: 0px 5px 0px 0px;
+}
+
+
+#header h1 {
+  font-family: 'Raleway', sans-serif, font-weight: 400;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 16%;
+  font-weight: 700;
+  line-height: 0.8em;
+  font-size: 4.25em;
+  }
+
+#header h1 span {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  color: #363636;
+  font-size: 0.30em;
+}
+
+
+#name {
+    float: left;
+    margin-left: 47%;
+    margin-top: 1%;
+    width: 653px;
+    height: 40px;
+}
+
+
+/****************************
+NAVIGATION
+******************************/
+
+.main-nav {
+  list-style: none;
+  padding: 0.1% 1% 0 0;
+  margin: 0;
+  height: 150px;
+}
+
+
+.main-nav li {
+  float: right;
+  display: inline;
+  padding-right: 30px;
+}
+
+
+
+/****************************
+FOOTER
+******************************/
+
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+.twitter-icon {
+  width: 55px;
+  height: 52px;
+  margin-top: 45px;
+  margin-left: -5px;
+  background-color: white;
+  opacity: 0.6;
+  border-radius: 20%;
+}
+
+.facebook-icon {
+  width: 55px;
+  height: 52px;
+  margin-top: 25px;
+  margin-left: -5px;
+  background-color: white;
+  opacity: 0.6;
+  border-radius: 20%;
+}
+
+.mail-icon {
+  width: 55px;
+  height: 52px;
+  margin-top: -20px;
+  margin-right: 95px;
+  background-color: white;
+  opacity: 0.6;
+  border-radius: 20%;
+  float: right;
+  position: relative;
+  bottom: 130px;
+  right: 80px;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  width: 60px;
+  height: 60px;
+  padding: 15px 5px 5px 70px;
+  margin: 10px -5px 10px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.contact-info li.facebook-icon a {
+  background-image: url('../img/facebook.png');
+  background-size: 50px;
+  margin-top: 5px;
+  margin-left: 3px;
+  white-space: nowrap;
+}
+
+.contact-info li.twitter-icon a {
+  background-image: url('../img/twitter_grey.png');
+  background-size: 50px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.contact-info li.mail-icon a {
+  background-image: url('../img/mail.png');
+  background-size: 52px;
+  margin-top: auto;
+  margin-left: 1px;
+}
+/****************************
+COLORS
+*****************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+
+ /* logo text */
+h1, h2 {
+  color: #fff;
+  margin: auto;
+}
+
+.aboutme {
+ color: #22A39F;
+}
+
+hr {
+border-color: #727878;
+position: ;
+right: 25px;
+opacity: 0.2;
+width: 800px;
+margin-top: 25px;
+}
+
+/****************************
+MEDIA QUERIES
+*****************************/
+
+@media screen and (max-width: 1024px) {
+  #header,
+  #contact-page,
+  #about {
+    width: 100%;
+  }
+
+
+@media screen and (max-width: 768px) {
+  #about,
+  #contact-page {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .myname {
+    margin-left: -8%;
+  }
+  
+  .profile-photo {
+    width: 100%;
+  }
+
+  #about p {
+    font-size: 1em;
+    text-align: justify;
+    margin: 0 0 15px 0;
+    padding-bottom: 25px;
+  }
+
+.myname {
+    margin-left: -8%;
+}
+
+#header {
+  max-height: 590px;
+  }
+
+
+.mail-icon {
+  margin-right: 160px;
+}
+
+.facebook-icon {
+  margin-left: 50px;
+}
+
+.twitter-icon {
+  margin-left: 50px;
+}
+
+.footer-p {
+  padding-top: 0;
+}
+
+.main-nav ul {
+  margin-right: 30%;
+}
+
+.main-nav {
+  width: 89%;
+}
+
+#header h1 {
+  font-size: 4rem;
+  top: auto;
+  left: auto;
+}
+
+@media screen and (max-width: 696px) {
+
+  .main-nav ul {
+    margin-right: 28%;
+  }
+
+
+  #header h1 {
+    font-size: 3em;
+  }
+
+
+.facebook-icon {
+margin-bottom: 72px;
+margin-left: 235px;
+}
+
+.mail-icon {
+  bottom: auto;
+  left: -351px;
+  top: 70px;
+  margin-bottom: 96px;
+}
+
+.twitter-icon {
+  margin-left: 235px;
+  margin-top: -32px;
+}
+
+
+.contact-info li.twitter-icon a {
+margin-top: 1px;
+}
+
+}
+
+@media screen and (max-width: 539px) {
+
+  .main-nav ul {
+    margin-right: 29%;
+    font-size: 0.8em;
+  }
+
+  #header h1 {
+    font-size: 2em;
+  }
+
+  .myname {
+    margin-right: -62px;
+    font-size: 1em;
+  }
+
+}
+
+@media screen and (max-width: 460px) {
+
+  .main-nav ul {
+    margin-right: 20%;
+  }
+
+  #header h1 {
+    font-size: 2em;
+  }
+
+  .myname {
+    margin-left: -37px
+  }
+
+
+@media screen and (max-width: 390px) {
+
+  .main-nav li {
+    padding-left: 4%;
+    width: 22px;
+    font-size: 0.8em;
+  }
+  
+  .main-nav ul {
+   padding-right: 17%;
+   margin-right: 19%;
+   font-size: 0.8em;
+  }
+  
+  #header h1 {
+    font-size: 2em;
+  }
+
+  .myname {
+    font-size: 0.9em;
+  }
+
+}
+
+
+@media screen and (max-width: 340px) {
+
+  .main-nav li {
+    margin-right: 28%;
+    font-size: 0.8em;
+  }
+  
+   .main-nav ul {
+    margin-right: 8%;
+    font-size: 0.8em;
+  }
+
+  #header h1 {
+    font-size: 2em;
+  }
+
+  .myname {
+    font-size: 0.9em;
+  }
+
+}
+
